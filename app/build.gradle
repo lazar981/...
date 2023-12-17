@@ -14,7 +14,16 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
 
+sonar {
+  properties {
+    property "sonar.projectKey", "SonarCheck"
+    property "sonar.projectName", "SonarCheck"
+  }
+}
     buildTypes {
         release {
             minifyEnabled false
