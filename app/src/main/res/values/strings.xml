@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">m:SKENER</string>
+    <string name="korisnicko_ime">Korisničko ime*</string>
+    <string name="lozinka">Lozinka*</string>
+    <string name="prijavi_se">Prijavi se</string>
+    <string name="posalji_podatke">Pošalji podatke</string>
+    <string name="ponovo_skeniraj">Ponovo skeniraj</string>
+</resources>
